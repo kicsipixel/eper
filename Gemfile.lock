@@ -1,17 +1,24 @@
 PATH
   remote: .
   specs:
-    eper (0.0.2)
+    eper (0.0.26)
+      faraday (~> 0.17.0)
+      json (~> 2.2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    faraday (0.17.0)
+      multipart-post (>= 1.2, < 3)
+    json (2.2.0)
+    multipart-post (2.1.1)
     rake (12.3.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 2.0)
   eper!
   rake (~> 12.0)
 
