@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    eper (0.0.1)
+    eper (0.0.2)
 
 GEM
   remote: https://rubygems.org/

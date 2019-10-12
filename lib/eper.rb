@@ -5,4 +5,9 @@ module Eper
   def self.version
   	Eper::VERSION
   end
+
+  def self.api_key
+  	ENV['footbal_data_api_key']
+  end
+
 end
