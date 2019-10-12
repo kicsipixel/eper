@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    eper (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  eper!
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.0.pre.2
