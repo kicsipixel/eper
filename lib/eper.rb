@@ -17,7 +17,7 @@ module Eper
   end
 
   def self.competition_url
-  	competition_url = base_url + "/competitions/2021"
+  	competition_url = base_url + "/competitions/2021/standings"
   end
 
   def self.header
