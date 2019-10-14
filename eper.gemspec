@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tsz@purzelbaum.hu"]
 
   spec.summary       = %q{API wrapper for football-data.org}
-  # spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.description   = %q{API wrapper for web applications, which is fed by football-data.org. You need your own API key.}
   spec.homepage      = "https://github.com/kicsipixel/eper"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
