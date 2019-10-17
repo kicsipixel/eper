@@ -21,16 +21,18 @@ Or install it yourself as:
 ## Usage
 
 1.	add your api_key as environment variable:
-	$ export football_data_api_key=YourAPIkeywillcomehere1234567890
-
+``` ruby
+$ export football_data_api_key=YourAPIkeywillcomehere1234567890
+```
 2.  
-	Eper.connect(id) 
+		Eper.connect(id) 
 
 where id is league id, check football-data.org API documentation.
 
 ## TODO
 - optimize code
 - add more options(e.g. teams, players, matches)
+- write tests
 
 
 ## Contributing
