@@ -1,6 +1,6 @@
 # Eper
 
-This is a simple ruby gem made for web applications. You need to resiter on football-data.org and use your own API key.
+This is a simple ruby gem made for web applications. You need to register on football-data.org and use your own API key.
 
 ## Installation
 
