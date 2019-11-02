@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{API wrapper for football-data.org}
   spec.description   = %q{API wrapper for web applications, which is fed by football-data.org. You need your own API key.}
-  spec.homepage      = "http://eper-gem.herokuapp.com"
+  spec.homepage      = "https://eper-gem.herokuapp.com"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
