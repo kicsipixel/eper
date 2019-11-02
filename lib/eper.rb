@@ -16,17 +16,17 @@ module Eper
   	base_url = Eper::API_ENDPOINT + Eper::API_VERSION
   end
 
-  def self.competition_url(id)
-  	competition_url = base_url + "/competitions/#{id}/standings"
+  def self.requested_url(p)
+  	requested_url = base_url + "/#{p}"
   end
 
   def self.header
   	load_header = {"X-Auth-Token" => api_key, "X-Response-Control" => "full"}
   end
 
-  def self.connection(id)
-	connection = Faraday.new(url: competition_url(id) , headers: header ).get
-	response = JSON.parse(connection.body)
+  def self.connection(p)
+	 connection = Faraday.new(url: requested_url(p) , headers: header ).get
+	 response = JSON.parse(connection.body)
   end
 
 end
