@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    eper (0.0.43)
+    eper (0.0.44)
       faraday (~> 0.17.0)
       json (~> 2.3.0)
 
