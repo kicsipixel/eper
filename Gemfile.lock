@@ -3,14 +3,14 @@ PATH
   specs:
     eper (0.0.43)
       faraday (~> 0.17.0)
-      json (~> 2.2.0)
+      json (~> 2.3.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
-    json (2.2.0)
+    json (2.3.0)
     multipart-post (2.1.1)
     rake (12.3.3)
 
